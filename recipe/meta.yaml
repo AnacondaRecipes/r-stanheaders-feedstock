@@ -10,8 +10,8 @@ package:
 source:
   fn: StanHeaders_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/StanHeaders_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/StanHeaders/StanHeaders_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/StanHeaders_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/StanHeaders/StanHeaders_{{ version }}.tar.gz
   sha256: 4300a1910a2eb40d7a6ecabea3c1e26f0aa9421eeb3000689272a0f62cb80d97
 
 
